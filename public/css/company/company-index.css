@@ -1,0 +1,45 @@
+#search-name{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+
+/*#search-name input{*/
+    /*height: 30px;*/
+/*}*/
+
+/*#search-name button{*/
+    /*height: 30px;*/
+    /*padding-top: 10%;*/
+/*}*/
+
+.help-block{
+    color: red;
+    font-size: 82%;
+}
+
+table td{
+    text-align: left;
+}
+
+
+.icons-margin-panel{
+    margin-right: 3%;
+}
+
+
+table{
+    table-layout: fixed;
+    border-collapse:collapse;
+
+}
+
+table td{
+    word-wrap:break-word
+}
+
+.td-show{
+    margin-left: 5%;
+}
+

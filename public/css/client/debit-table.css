@@ -1,0 +1,35 @@
+/*----------------------------
+|****DEBITS TABLE COLUMNS****|
+--------------------------- */
+
+table td{
+    text-align: left;
+}
+.check-box-th{
+    width: 5%;
+}
+
+.description-th{
+    width: 35%;
+}
+
+.expiration-date-th{
+    width: 10%;
+}
+
+.delayed-days-th{
+    width: 11%;
+}
+
+.status-th{
+    width: 14%;
+}
+
+.amount-th{
+    width: 15%;
+}
+
+.actions-th{
+    width: 10%;
+}
+

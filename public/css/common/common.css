@@ -1,0 +1,67 @@
+.fixing-content{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.remove-button-border{
+    border: none;
+    background: none;
+}
+
+.icon-blue{
+    color: #337ab7;
+}
+
+.icon-red{
+    color: #ac2925;
+}
+
+.icons-margin-fix{
+    margin-right: 10%;
+}
+
+.fix-pagination ul{
+    margin: 0;
+}
+
+.clear-padding{
+    padding: 0;
+}
+
+.clear-margin{
+    margin: 0;
+}
+
+.show-pointer{
+    cursor: pointer;
+}
+
+
+.box-material-shadow{
+    box-shadow: 2px 2px 3px #999;
+}
+
+.box-shadow-selected{
+    box-shadow: 2px 8px 8px 0 #999;
+}
+
+.payment-label{
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+
+
+/*-------------|
+|*****TABLE****|
+---------------*/
+
+.fix-td-table{
+    table-layout: fixed;
+    border-collapse:collapse;
+}
+
+.fix-td-table td{
+    word-wrap:break-word;
+    font-size: 90%;
+}

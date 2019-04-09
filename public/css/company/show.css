@@ -1,0 +1,38 @@
+table td{
+    text-align: left;
+}
+
+.icons-right{
+    margin-right: 3%;
+}
+
+#excel-icon{
+    border: none;
+    background: none;
+    color: rgb(51, 122, 183);
+}
+
+.back-step{
+    margin-top: 2%;
+    padding-right: 0;
+}
+
+#company-header-card{
+    background-color: #C5CAE9;
+}
+
+#bank-header-card{
+    background-color: #F0F4C3;
+}
+
+#clients-header-card{
+    background-color: #DCEDC8;
+}
+
+#buttonEditCompany{
+    margin-left: 0;
+}
+
+.middle-table{
+    text-align: center;
+}

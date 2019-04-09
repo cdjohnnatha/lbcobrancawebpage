@@ -1,0 +1,18 @@
+
+
+.back-step{
+    margin-top: 2%;
+    padding-right: 0;
+}
+
+#debits-icons i{
+    margin-right: 1em;
+}
+
+#client-situation-card{
+    background-color: #FFF59D;
+}
+
+#client-debit-card{
+    background-color: #B0BEC5;
+}

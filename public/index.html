@@ -1,41 +1,337 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LB Cobrança e Consultoria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Template by FreeHTML5.co" />
+    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+    <meta name="author" content="FreeHTML5.co" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    <!-- <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+    
+    <!-- Modernizr JS -->
+    <script src="/js/modernizr-2.6.2.min.js"></script>
+    
+    <!-- Custom CSS -->
+        <!-- Animate.css -->
+    <link rel="stylesheet" href="/css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="/css/icomoon.css">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="/css/simple-line-icons.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link href="/css/startmin.css" rel="stylesheet">
+
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+    </head>
+    <body>
+        <header role="banner" id="fh5co-header">
+                <div class="fluid-container">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#"><img class="fh5co-nav-toggle" src="/images/LOGO.jpg"></a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+                                <li><a href="#" data-nav-section="services"><span>Sobre</span></a></li>
+                                <li><a href="#" data-nav-section="contact"><span>Contato</span></a></li>
+                                <li><a href="#" data-nav-section="location"><span>Localização</span></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+    <!-- --<h1 style="color: red; padding-top:6em; padding-left: 14em;"> Contate o Administrador </h1>-- -->
+        <section id="fh5co-home" data-section="home" data-stellar-background-ratio="0.5">
+            <div class="gradient"></div>
+            <div class="container">
+                <div class="text-wrap">
+                    <div class="text-inner">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center" id="title1">
+                                <img src="/images/LOGO2.png" id="first-logo" class="to-animate"/>
+                                <h3 class="to-animate" id="title1">Cobrança e Consultoria</h3>
+                                <h4 class="to-animate" id="title2">Empresa especializada em recuperação de crédito. </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section id="fh5co-services" data-section="services">
+        <div class="fh5co-services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading text-center">
+                        <img src="/images/LOGO2.png" id="central-logo" class="to-animate"/>
+                        <h2 class="to-animate"><span>Cobrança e consultoria</span></h2>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 subtext">
+                                <h3 class="to-animate">Somos uma empresa de assessoria de cobrança focada em recuperação de créditos e ativos. Contando, para isso, com uma equipe de cobrança capacitada e de corpo de advogados especializados. Oferecemos nossos serviços de cobrança em todo Brasil há mais de 5 anos.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <div class="box-services">
+                            <div class="icon to-animate">
+                                <span><i class="icon-target"></i></span>
+                            </div>
+                            <div class="fh5co-post to-animate">
+                                <h3>Nossa Missão</h3>
+                                <p>Realizar serviços de recuperação de créditos e ativos junto aos devedores, com o desiderato de se evitar demandas judiciais e os custos atinentes.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="box-services">
+                            <div class="icon to-animate">
+                                <span><i class="icon-graph"></i></span>
+                            </div>
+                            <div class="fh5co-post to-animate">
+                                <h3>Nossa visão</h3>
+                                <p>Ser uma empresa diferenciada no mercado e atualizada com a legislação vigente, proporcionando confiabilidade aos nossos clientes, sempre na certeza de alcançar os resusltados esperados.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="box-services">
+                            <div class="icon to-animate">
+                                <span><i class="icon-like"></i></span>
+                            </div>
+                            <div class="fh5co-post to-animate">
+                                <h3>Nossos Valores</h3>
+                                <p>Comprometimento com a ética, transparência e honestidade;
+ qualidade na prestação dos serviços;
+ respeito aos funcionários e clientes. Constante inovação na estrutura do trabalho.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <section class="core-features">
+            <div id="grid-cover" class="grid2 to-animate blur-effect" >
+            </div>
+            <div class="grid2 fh5co-bg-color">
+                <div class="core-f">
+                    <h2 class="to-animate">Segmento</h2>
+                    <p class="to-animate">A LB atua na recuperação de crédito em diversos segmentos.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="core">
+                                <i class="icon-building to-animate-2"></i>
+                                <div class="fh5co-post to-animate">
+                                    <h3>Instituições Financeiras</h3>
+                                </div>
+                            </div>
+                            <div class="core">
+                                <i class="icon-building to-animate-2"></i>
+                                <div class="fh5co-post to-animate">
+                                    <h3>Instituições de ensino</h3>
+                                </div>
+                            </div>
+                            <div class="core">
+                                <i class="icon-building to-animate-2"></i>
+                                <div class="fh5co-post to-animate">
+                                    <h3>Empresas de Telecomunicação</h3>
+                                </div>
+                            </div>
+                            <div class="core">
+                                <i class="icon-building to-animate-2"></i>
+                                <div class="fh5co-post to-animate">
+                                    <h3>Condomínios</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="core">
+                                <i class="icon-building to-animate-2"></i>
+                                <div class="fh5co-post to-animate">
+                                    <h3>Hospitais</h3>
+                                </div>
+                            </div>
+                            <div class="core">
+                                <i class="icon-building to-animate-2"></i>
+                                <div class="fh5co-post to-animate">
+                                    <h3>Indústrias</h3>
+                                </div>
+                            </div>
+                            <div class="core">
+                                <i class="icon-building to-animate-2"></i>
+                                <div class="fh5co-post to-animate">
+                                    <h3>Empresas varejistas e atacadistas</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="core-features">
+                <div class="grid2 fh5co-bg-color">
+                    <div class="core-f">
+                        <h2 class="to-animate">Serviços Prestados</h2>
+                        <p class="to-animate">A LB oferece serviços de cobrança e gerenciamento de contas a receber bastante abragente, trabalhando com os seguintes produtos.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="core">
+                                    <i class="icon-usd to-animate-2"></i>
+                                    <div class="fh5co-post to-animate">
+                                        <h3>Cheques</h3>
+                                    </div>
+                                </div>
+                                <div class="core">
+                                    <i class="icon-usd to-animate-2"></i>
+                                    <div class="fh5co-post to-animate">
+                                        <h3>Duplicatas</h3>
+                                    </div>
+                                </div>
+                                <div class="core">
+                                    <i class="icon-usd to-animate-2"></i>
+                                    <div class="fh5co-post to-animate">
+                                        <h3>Boletos Bancários</h3>
+                                    </div>
+                                </div>
+                                <div class="core">
+                                    <i class="icon-usd to-animate-2"></i>
+                                    <div class="fh5co-post to-animate">
+                                        <h3>Outros</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="core">
+                                    <i class="icon-usd to-animate-2"></i>
+                                    <div class="fh5co-post to-animate">
+                                        <h3>Notas Promissórias</h3>
+                                    </div>
+                                </div>
+                                <div class="core">
+                                    <i class="icon-usd to-animate-2"></i>
+                                    <div class="fh5co-post to-animate">
+                                        <h3>Faturas de Cartão de Crédito</h3>
+                                    </div>
+                                </div>
+                                <div class="core">
+                                    <i class="icon-usd to-animate-2"></i>
+                                    <div class="fh5co-post to-animate">
+                                        <h3>Mensalidade em geral</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="to-animate"> Caso a sua demanda não esteja contemplada na listagem acima, não deixe de nos procurar, nossos serviços de cobrança, pois faremos o possível para atender às necessidade de sua empresa.<p>
+                    </div>
+                </div>
+                <div class="grid2 to-animate blur-effect" id="service-image">
+                </div>
+            </section>
+            <section id="fh5co-footer" role="contentinfo" data-section="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 to-animate">
+                                <h3 class="section-title">Sobre</h3>
+                                <p>Somos uma empresa de assessoria de cobrança focada em recuperação de créditos e ativos. Contando, para isso, com uma equipe de cobrança capacitada e de corpo de advogados especializados. Oferecemos nossos serviços de cobrança em todo Brasil há mais de 5 anos.</p>
+                                <p class="copy-right">
+                                    Desenvolvido por <a href="http://cdjohnnatha.com/" target="_blank">cdjohnnatha</a></p>
+                                </div>
+                
+                            <div class="col-md-4 to-animate">
+                                <h3 class="section-title">Nosso Endereço</h3>
+                                <ul class="contact-info">
+                                    <li><i class="icon-map-marker"></i>Avenida Nossa Senhora de Fátima, nº 1843, Sala nº 206, Torre, João Pessoa/PB. CEP: 58040-380.</li>
+                                    <li><i class="icon-phone"></i>+55 83 3222-6975 / 98735-7448</li>
+                                    <li><i class="icon-envelope"></i><a href="#">lbcobrancaeconsultoria@gmail.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 to-animate">
+                                <h3 class="section-title">Deixe uma messagem de contato</h3>
+                                <form class="contact-form" action="{{ url('/contact') }}" method="POST">
+                                    <div class="form-group">
+                                        <label for="name" class="sr-only">Name</label>
+                                    <input type="text" name = "name" class="form-control" id="name" placeholder="Nome">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="sr-only">Email</label>
+                                        <input id="email" name="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject" class="sr-only">Assunto</label>
+                                        <input name="subject" class="form-control" id="subject" placeholder="Assunto">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="sr-only">Messagem</label>
+                                        <textarea id="message" name="message" rows="6" class="form-control" placeholder="Deixe sua mensagem aqui."></textarea>
+                
+                                    </div>
+                                    <div class="form-group">
+                                    <input type="submit" id="btn-submit" name="sub" class="btn btn-send-message btn-md" value="Enviar Messagem">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <div id="map" class="fh5co-map" data-section="location"></div>
+
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    
+    
+    <!-- jQuery -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/commons/common.js"></script>
+    <script src="/js/libs/bootstrap-notify-3.1.3/bootstrap-notify.js"></script>
+    <script src="/js/commons/stateMessage.js"></script>
+    <link href="/js/libs/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+    <script src="/js/libs/bootstrap-notify-3.1.3/bootstrap-notify.js"></script>
+    <script src="/js/form.js" ></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="/js/jquery.stellar.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="/js/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="/js/jquery.countTo.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvBGSwYnSJfWHO4Xt_FFBl8ud2-1tY8hA&callback=initMap"></script>
+    <script src="/js/google_map.js"></script>
+    <!-- Main JS (Do not remove) -->
+    <script src="/js/main.js"></script>
+    </body>
 </html>
+
