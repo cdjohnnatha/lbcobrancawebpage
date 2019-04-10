@@ -1,16 +1,26 @@
 {
-  "name": "lbcobrancaeconsultoria-webpage",
+  "name": "lbcobrancawebpage",
+  "author": "claudio djohnnatha duarte lourenco",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "NODE_ENV=production node ./lib/bin/www",
+    "dev": "NODE_ENV=development nodemon ./lib/bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
+    "dotenv": "^7.0.0",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "nodemailer": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^1.18.11"
   }
 }

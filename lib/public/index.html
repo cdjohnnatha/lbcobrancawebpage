@@ -273,26 +273,26 @@
                             </div>
                             <div class="col-md-4 to-animate">
                                 <h3 class="section-title">Deixe uma messagem de contato</h3>
-                                <form class="contact-form" action="{{ url('/contact') }}" method="POST">
+                                <form id="contactForm" class="contact-form" action="/contact" method="POST">
                                     <div class="form-group">
                                         <label for="name" class="sr-only">Name</label>
-                                    <input type="text" name = "name" class="form-control" id="name" placeholder="Nome">
+                                    <input type="text" name = "name" class="form-control" id="name" placeholder="Nome" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="email" class="sr-only">Email</label>
-                                        <input id="email" name="email" class="form-control" placeholder="Email">
+                                        <input id="email" name="email" class="form-control" placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="subject" class="sr-only">Assunto</label>
-                                        <input name="subject" class="form-control" id="subject" placeholder="Assunto">
+                                        <input name="subject" class="form-control" id="subject" placeholder="Assunto" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="message" class="sr-only">Messagem</label>
-                                        <textarea id="message" name="message" rows="6" class="form-control" placeholder="Deixe sua mensagem aqui."></textarea>
+                                        <textarea id="message" name="message" rows="6" class="form-control" placeholder="Deixe sua mensagem aqui." required></textarea>
                 
                                     </div>
                                     <div class="form-group">
-                                    <input type="submit" id="btn-submit" name="sub" class="btn btn-send-message btn-md" value="Enviar Messagem">
+                                    <input type="submit" id="btn-submit" name="sub" class="btn btn-send-message btn-md" value="Enviar Messagem" required>
                                     </div>
                                 </form>
                             </div>
